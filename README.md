@@ -1,2 +1,2 @@
-# Nebula-
+# Nebula
 Personal UI library 
