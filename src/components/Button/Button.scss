@@ -1,0 +1,41 @@
+@import '../../themes/light-theme.palette';
+
+.button {
+  padding: 15px;
+  min-width: 150px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus {
+    opacity: 1;
+    outline: none;
+  }
+
+  &__primary {
+    background-color: $purple500;
+    color: $white;
+  }
+
+  &__secondary {
+    background-color: $white;
+    color: $purple500;
+    border-color: $purple500;
+  }
+
+  &--disabled {
+    opacity: 0.8;
+    background-color: $grey;
+    color: $white;
+    cursor: not-allowed;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
